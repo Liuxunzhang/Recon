@@ -5,7 +5,7 @@ Project scaffold for a security vulnerability and asset management platform.
 ## Backend (FastAPI)
 
 ```bash
-cd /home/runner/work/Recon/Recon/backend
+cd backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -19,7 +19,7 @@ Available placeholder endpoints:
 ## Frontend (Vue 3 + Vite)
 
 ```bash
-cd /home/runner/work/Recon/Recon/frontend
+cd frontend
 npm install
 npm run dev -- --host 0.0.0.0 --port 5173
 ```
